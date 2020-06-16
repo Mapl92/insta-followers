@@ -1,8 +1,9 @@
 # helloworld/urls.py
 from django.conf.urls import url
+from django.urls import path
 from django.conf.urls.static import static
-from helloworld import views
+from . import views
 
 urlpatterns = [
-    url(r'^$', views.HomePageView.as_view()),
+    url('<str:username>', views.count)
 ]
