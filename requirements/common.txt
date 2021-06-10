@@ -1,4 +1,4 @@
 # dependencies common to all environments
-Django==2.2
+Django==2.2.24
 requests
 bs4
